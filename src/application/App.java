@@ -10,6 +10,12 @@ public class App {
 			System.out.printf("Counter: %d\n", counter);
 			counter = counter + 1;
 		}
+		
+		int counter2 = 0;
+		while (counter2 < 5) {
+			System.out.println("Hello");
+			counter2 += 1;
+		}
 	}
 
 	public String printHello(int endNumber) {
